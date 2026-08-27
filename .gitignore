@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# Database & Persistent Data
+data/*.db
+data/evaluations.db
+*.sqlite
+*.sqlite3
+
+# Temporary & Cache
+tmp/
+.cache/
+.pytest_cache/
+
+# Streamlit Local Cache
+.streamlit/secrets.toml
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
