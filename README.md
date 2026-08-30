@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bdb0799-0430-4108-84ec-23897ec3ffc9" />
+
 # ✨ Neural Eval Core — LLM Evaluation & Prompt Engineering Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
