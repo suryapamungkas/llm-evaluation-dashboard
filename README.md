@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bdb0799-0430-4108-84ec-23897ec3ffc9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3871470-7360-4557-9c2d-8751dda08a25" />
 
 # ✨ Neural Eval Core — LLM Evaluation & Prompt Engineering Dashboard
 
