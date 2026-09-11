@@ -199,7 +199,13 @@ else:
     )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("⚡ Powered by FastAPI + Gemini AI Judge + Streamlit")
+st.sidebar.markdown(
+    "<div style='color: #8b9bb4; font-size: 0.85em; line-height: 1.5;'>"
+    "👤 <b>Author:</b> <a href='https://github.com/suryapamungkas' target='_blank' style='color: #FF00FF; text-decoration: none;'>Nur Hidayat Surya Pamungkas</a><br>"
+    "⚡ Powered by FastAPI + Gemini AI Judge + Streamlit"
+    "</div>",
+    unsafe_allow_html=True,
+)
 
 # ---------------------------------------------------------------------------
 # Header
@@ -586,3 +592,14 @@ try:
         st.info("Belum ada data evaluasi. Jalankan evaluasi di atas untuk memulai!")
 except httpx.HTTPError:
     st.info("Backend belum aktif atau tidak dapat dijangkau. Jalankan backend terlebih dahulu.")
+
+# ---------------------------------------------------------------------------
+# Footer – Author & Copyright Branding
+# ---------------------------------------------------------------------------
+st.markdown(
+    "<div style='text-align: center; color: #8b9bb4; padding: 25px 0 15px 0; font-family: monospace; font-size: 0.88em; border-top: 1px solid rgba(138, 43, 226, 0.25); margin-top: 50px;'>"
+    "✨ <b>Neural Eval Core</b> • Created & Maintained by "
+    "<a href='https://github.com/suryapamungkas' target='_blank' style='color: #FF00FF; font-weight: bold; text-decoration: none;'>Nur Hidayat Surya Pamungkas</a>"
+    "</div>",
+    unsafe_allow_html=True,
+)

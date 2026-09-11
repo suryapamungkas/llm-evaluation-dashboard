@@ -219,5 +219,13 @@ Liveness check status backend (`{"status": "ok"}`).
 
 ---
 
+## 👨‍💻 Author & Creator
+
+**Nur Hidayat Surya Pamungkas**
+- GitHub: [@suryapamungkas](https://github.com/suryapamungkas)
+- Repository: [llm-evaluation-dashboard](https://github.com/suryapamungkas/llm-evaluation-dashboard)
+
+---
+
 ## 📄 Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Proyek ini dilisensikan di bawah [MIT License](LICENSE) © 2026 **Nur Hidayat Surya Pamungkas**.

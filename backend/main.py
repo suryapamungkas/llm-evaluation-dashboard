@@ -21,6 +21,14 @@ app = FastAPI(
     title="LLM Evaluation Dashboard API",
     description="Evaluate, compare, and monitor outputs from multiple LLM models.",
     version="1.0.0",
+    contact={
+        "name": "Nur Hidayat Surya Pamungkas",
+        "url": "https://github.com/suryapamungkas",
+    },
+    license_info={
+        "name": "MIT License",
+        "url": "https://opensource.org/licenses/MIT",
+    },
 )
 
 # Allow Streamlit (or any frontend) to call the API
